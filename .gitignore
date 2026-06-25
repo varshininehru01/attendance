@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build Folders
+dist/
+build/
+
+# React
+frontend/node_modules/
+frontend/build/
+
+# Backend
+backend/node_modules/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Coverage
+coverage/
+
+# MongoDB
+mongodb-data/
+
+# Runtime Data
+pids
+*.pid
+*.seed
+*.pid.lock
